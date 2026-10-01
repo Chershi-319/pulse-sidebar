@@ -1,0 +1,31 @@
+bin/
+vendor/
+artifacts/
+*.user
+
+# Local implementation notes and real-account validation results
+/PLAN.md
+/VALIDATION.md
+/dist/
+/.tools/
+
+# Credentials, local settings, logs, and generated diagnostics
+.env
+.env.*
+!.env.example
+auth.json
+credentials.json
+settings.json
+sensors.json
+command.json
+error.txt
+self-test.txt
+*.log
+*.tmp
+*.pfx
+*.p12
+*.pem
+*.key
+__pycache__/
+.vs/
+.vscode/
